@@ -14,11 +14,14 @@
 
   <link rel="stylesheet" href="css/style.css">
 
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css">
+
 </head>
 
 <body>
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-md sticky-top navbar-dark bg-dark">
     <div class="container-fluid">
         <!-- Logo -->
         <a class="navbar-brand" href="/"><img src="img/favicon.svg" width="32px" height="32px"/></a>
@@ -28,15 +31,15 @@
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <!-- Nav Items -->
         <div class="collapse navbar-collapse" id="navbarItems">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <!-- Nav Items -->
+            <ul class="navbar-nav me-auto d-flex flex-row justify-content-around">
                 <li class="nav-item">
                     <!-- Current Page -->
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./web">Web</a>
+                    <a class="nav-link" href="./web">Websites</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="./game">Games</a>
@@ -48,6 +51,21 @@
                     <a class="nav-link" href="./contact">Contact</a>
                 </li>
             </ul>
+             <!-- Social Media Links -->
+             <ul class="navbar-nav d-flex flex-row justify-content-around">
+                <li class="nav-item">
+                    <a class="nav-link fa-brands fa-github fa-2x" href="https://github.com/PlebExMachina"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fa-brands fa-twitter fa-2x" href="https://twitter.com/PlebInAMachine"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fa-brands fa-youtube fa-2x" href="https://www.youtube.com/channel/UCsdXodb6uow1g5x0FckLLiQ"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fa-brands fa-steam fa-2x" href="https://steamcommunity.com/id/PlebExMachina"></a>
+                </li>
+             </ul>
         </div>
     </div>
   </nav>
