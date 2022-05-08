@@ -1,0 +1,23 @@
+{
+  "name": "plebexmachina",
+  "version": "1.0.0",
+  "description": "portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PlebExMachina/PlebExMachina.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PlebExMachina/PlebExMachina/issues"
+  },
+  "homepage": "https://github.com/PlebExMachina/PlebExMachina#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "sass": "^1.51.0"
+  }
+}
