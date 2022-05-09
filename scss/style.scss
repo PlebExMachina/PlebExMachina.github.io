@@ -1,1 +1,29 @@
 @import "../node_modules/bootstrap/scss/bootstrap"; 
+
+$bg-base-r: 33;
+$bg-base-g: 37;
+$bg-base-b: 41;
+
+@function adjustedBGColor($grow){
+    @return rgb($bg-base-r+$grow,$bg-base-g+$grow,$bg-base-b+$grow);
+}
+
+.bg {
+    background-color: adjustedBGColor(0);
+}
+
+.bg-darker {
+    background-color: adjustedBGColor(-15)
+}
+
+.bg-darkest {
+    background-color: adjustedBGColor(-30)
+}
+
+.bg-lighter {
+    background-color: adjustedBGColor(15)
+}
+
+.bg-lightest {
+    background-color: adjustedBGColor(30)
+}

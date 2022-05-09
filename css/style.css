@@ -11118,5 +11118,24 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.bg {
+  background-color: rgb(33, 37, 41);
+}
+
+.bg-darker {
+  background-color: rgb(18, 22, 26);
+}
+
+.bg-darkest {
+  background-color: rgb(3, 7, 11);
+}
+
+.bg-lighter {
+  background-color: rgb(48, 52, 56);
+}
+
+.bg-lightest {
+  background-color: rgb(63, 67, 71);
+}
 
 /*# sourceMappingURL=style.css.map */
