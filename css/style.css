@@ -11138,4 +11138,184 @@ textarea.form-control-lg {
   background-color: rgb(63, 67, 71);
 }
 
+/*
+    font of each category is meant to be paired with a bg of the same category so font-darker goes with bg-darker.
+*/
+.font {
+  color: rgb(218, 220, 224);
+}
+
+.font-darker {
+  color: rgb(233, 235, 239);
+}
+
+.font-darkest {
+  color: rgb(248, 250, 254);
+}
+
+.font-lighter {
+  color: rgb(203, 205, 209);
+}
+
+.font-lightest {
+  color: rgb(188, 190, 194);
+}
+
+.vh-80 {
+  height: 80vh;
+}
+
+.bg-hero {
+  background-color: #000000;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgb(0, 0, 0)), url("../img/hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.r-1 {
+  height: 4em;
+  width: 4em;
+}
+
+.r-2 {
+  height: 8em;
+  width: 8em;
+}
+
+.r-3 {
+  height: 12em;
+  width: 12em;
+}
+
+.r-4 {
+  height: 16em;
+  width: 16em;
+}
+
+.z-3 {
+  z-index: 30;
+}
+
+.z-2 {
+  z-index: 20;
+}
+
+.z-1 {
+  z-index: 10;
+}
+
+.z-0 {
+  z-index: 0;
+}
+
+.z-m1 {
+  z-index: -10;
+}
+
+.z-m2 {
+  z-index: -20;
+}
+
+.z-m3 {
+  z-index: -30;
+}
+
+.clip-up-1 {
+  margin-top: -1em;
+}
+
+.clip-up-2 {
+  margin-top: -2em;
+}
+
+.clip-up-3 {
+  margin-top: -3em;
+}
+
+.clip-up-4 {
+  margin-top: -4em;
+}
+
+.clip-up-5 {
+  margin-top: -5em;
+}
+
+.clip-down-1 {
+  margin-top: 1em;
+}
+
+.clip-down-2 {
+  margin-top: 2em;
+}
+
+.clip-down-3 {
+  margin-top: 3em;
+}
+
+.clip-down-4 {
+  margin-top: 4em;
+}
+
+.clip-down-5 {
+  margin-top: 5em;
+}
+
+.clip-left-1 {
+  margin-left: -1em;
+}
+
+.clip-left-2 {
+  margin-left: -2em;
+}
+
+.clip-left-3 {
+  margin-left: -3em;
+}
+
+.clip-left-4 {
+  margin-left: -4em;
+}
+
+.clip-left-5 {
+  margin-left: -5em;
+}
+
+.clip-right-1 {
+  margin-left: 1em;
+}
+
+.clip-right-2 {
+  margin-left: 2em;
+}
+
+.clip-right-3 {
+  margin-left: 3em;
+}
+
+.clip-right-4 {
+  margin-left: 4em;
+}
+
+.clip-right-5 {
+  margin-left: 5em;
+}
+
+.gear-0 {
+  transform: rotate(0);
+}
+
+.gear-45 {
+  transform: rotate(45deg);
+}
+
+.gear-0, .gear-45 {
+  background-image: url("../img/gear.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
 /*# sourceMappingURL=style.css.map */
