@@ -11300,6 +11300,15 @@ textarea.form-control-lg {
   margin-left: 5em;
 }
 
+.hc {
+  transition: transform 200ms ease-in-out;
+}
+
+.hc:hover {
+  transform: translate(0, -20px);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
+}
+
 .gear-0 {
   transform: rotate(0);
 }
@@ -11316,6 +11325,18 @@ textarea.form-control-lg {
   -moz-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
+}
+
+.heading-button {
+  background-color: #6A8A35;
+  color: white;
+  border-radius: 5px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
 }
 
 /*# sourceMappingURL=style.css.map */

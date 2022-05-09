@@ -20,7 +20,7 @@
 
 </head>
 
-<body class="d-flex flex-column">
+<body class="d-flex flex-column bg-darker">
   <!-- Navbar -->
   <nav class="navbar navbar-expand-md sticky-top navbar-dark bg">
     <div class="container-fluid">
@@ -77,15 +77,44 @@
     <section class="container-fluid bg-hero vh-80 d-flex justify-content-between">
             <div></div>
             <div class="d-flex flex-column justify-content-center m-5">
-                <h1 class="font-darkest">PlebExMachina</h1>
+                <a href="./about" class="text-decoration-none">
+                    <h1 class="heading-button font-darkest p-5 hc hc-scale hc-highlight">PlebExMachina</h1>
+                </a>
             </div>
     </section>
     <!-- Spinning Gears -->
-    <div class="d-flex position-absolute">
+    <div class="d-none d-md-flex position-absolute">
         <div class="spinRight gear-0 r-3 clip-up-5 clip-left-3"></div>
         <div class="spinLeft gear-45 r-4 clip-up-4 clip-left-1"></div>
     </div>
   </main>
+
+  <!-- Overview -->
+  <section class="container-fluid bg-darker p-5 mt-4 bg-darkest d-flex justify-content-center">
+        <div class="p-4 text-center row">
+            <div class="font-lighter bg-lighter p-3 mb-4 container-fluid row"><h2>Portfolio</h2></div>
+            <div class="row">
+                <div class="card col-12 col-md-6 font bg-lighter mt-3 hc">
+                    <h5 class="card-title">Websites</h5>
+                    <a href="./web">
+                        <img src="img/webdev.png" class="card-img-top img-thumbnail" alt="Website Code">
+                    </a>
+                    <div class="card-body">
+                      <p class="card-text">Full featured Websites and Apps</p>
+                    </div>
+                </div>
+                <div class="card col-12 col-md-6 font-darkest bg-lightest mt-3 hc">
+                    <h5 class="card-title">Game Development</h5>
+                    <a href="./game">
+                        <img src="img/gamedev.png" class="card-img-top img-thumbnail" alt="Game Engine Editor">
+                    </a>
+                    <div class="card-body">
+                      <p class="card-text">UE4 Projects and Plugins</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+  </section>
 
   <!-- Footer -->
   <footer class="container-fluid bg">
