@@ -11349,4 +11349,12 @@ textarea.form-control-lg {
   background-color: rgb(33, 37, 41);
 }
 
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
+  font-family: "Nova Square", Georgia, Helvetica, Arial;
+}
+
+p {
+  font-family: "Comic Neue", sans-serif;
+}
+
 /*# sourceMappingURL=style.css.map */
