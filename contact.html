@@ -70,7 +70,29 @@
   </nav>
   <!-- Page Content-->
   <main class="min-vh-100 bg-darker">
-
+    <section class="container-fluid d-flex flex-column mb-5">
+      <a href="#contact-form" class="align-self-center text-decoration-none">
+          <h1 class="bg-lighter m-5 p-3 rounded-end hc heading-button">Reach Out</h1>
+      </a>
+      <div class="align-self-center bg p-4">
+        <p class="font-darker">You can reach out to me via my social media links, otherwise fill out the form below.</p>
+      </div>
+    </section>
+      <form class="container d-flex flex-column mb-5 bg p-3 rounded font text-center" id="contact-form" action="https://formsubmit.co/9e00727aa530b686f78c5c057fd30051" method="POST">
+        <div class="mb-3">
+          <label for="formName" class="form-label">Name</label>
+          <input type="text" name="name" placeholder="..." id="formName" class="form-control text-center bg-lighter font-darkest">
+        </div>
+        <div class="mb-3">
+          <label for="formEmail" class="form-label">Email Address</label>
+          <input type="email" name="email" class="form-control text-center bg-lighter font-darkest" id="formEmail" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+          <label for="formMessage" class="form-label">Message</label>
+          <textarea class="form-control text-center bg-lighter font-darkest" name="message" id="formMessage" rows="3" placeholder="..."></textarea>
+        </div>
+        <button type="submit" class="btn bg-lightest font-darker">Submit</button>
+      </form>
   </main>
 
   <!-- Footer -->
