@@ -250,3 +250,15 @@ $r-radius: 2;
     height: 15vw;
     object-fit: cover;
 }
+
+.ps-inline-link {
+    color: #9da2ff;
+    text-decoration: none;
+}
+
+// Bootstrap
+
+.accordion-button:not(.collapsed) {
+    color: adjustedFontColor(0);
+    background-color: adjustedBGColor(0);
+}

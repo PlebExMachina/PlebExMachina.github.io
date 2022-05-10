@@ -11339,4 +11339,14 @@ textarea.form-control-lg {
   object-fit: cover;
 }
 
+.ps-inline-link {
+  color: #9da2ff;
+  text-decoration: none;
+}
+
+.accordion-button:not(.collapsed) {
+  color: rgb(218, 220, 224);
+  background-color: rgb(33, 37, 41);
+}
+
 /*# sourceMappingURL=style.css.map */
