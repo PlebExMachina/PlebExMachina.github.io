@@ -24,7 +24,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&family=Nova+Square&display=swap" rel="stylesheet">
 </head>
 
-<body class="d-flex flex-column">
+<body class="d-flex flex-column bg">
   <nav class="navbar navbar-expand-md sticky-top navbar-dark bg">
     <div class="container-fluid">
         <!-- Logo -->
@@ -74,8 +74,33 @@
     </div>
   </nav>
   <!-- Page Content-->
-  <main class="min-vh-100 bg-darker">
-
+  <main class="bg-darker">
+    <div id="portfolioContainer" class="carousel slide carousel-fade m-5" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/carousel/carouselDimensions.png" class="d-block w-100" alt="Project Black Box">
+            <div class="carousel-caption">
+                <h5>Project Black Box</h5>
+                <p>Fast paced mecha action that emphasizes player expression.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/carousel/carouselDimensions.png" class="d-block w-100" alt="TBA">
+            <div class="carousel-caption">
+                <h5>TBA</h5>
+                <p>Next item in the pipeline should be coming soon.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#portfolioContainer" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#portfolioContainer" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
   </main>
 
   <!-- Footer -->
